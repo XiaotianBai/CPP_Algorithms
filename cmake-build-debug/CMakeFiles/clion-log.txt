@@ -1,0 +1,4 @@
+"E:\JetBrains\CLion 2018.1.2\bin\cmake\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" E:\ClionProjects\LeetcodeCpp
+-- Configuring done
+-- Generating done
+-- Build files have been written to: E:/ClionProjects/LeetcodeCpp/cmake-build-debug

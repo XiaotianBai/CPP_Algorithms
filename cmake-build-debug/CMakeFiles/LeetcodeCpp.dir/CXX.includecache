@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/ClionProjects/LeetcodeCpp/KdiffPairs.cpp
+unordered_set
+E:/ClionProjects/LeetcodeCpp/unordered_set
+KdiffPairs.h
+E:/ClionProjects/LeetcodeCpp/KdiffPairs.h
+
+E:/ClionProjects/LeetcodeCpp/KdiffPairs.h
+vector
+E:/ClionProjects/LeetcodeCpp/vector
+
+E:/ClionProjects/LeetcodeCpp/main.cpp
+iostream
+-
+iostream
+-
+cstdlib
+E:/ClionProjects/LeetcodeCpp/cstdlib
+vector
+E:/ClionProjects/LeetcodeCpp/vector
+unordered_set
+E:/ClionProjects/LeetcodeCpp/unordered_set
+KdiffPairs.h
+E:/ClionProjects/LeetcodeCpp/KdiffPairs.h
+thirdmaximumnumber.h
+E:/ClionProjects/LeetcodeCpp/thirdmaximumnumber.h
+
+E:/ClionProjects/LeetcodeCpp/thirdmaximumnumber.cpp
+iostream
+E:/ClionProjects/LeetcodeCpp/iostream
+cstdlib
+E:/ClionProjects/LeetcodeCpp/cstdlib
+thirdmaximumnumber.h
+E:/ClionProjects/LeetcodeCpp/thirdmaximumnumber.h
+
+E:/ClionProjects/LeetcodeCpp/thirdmaximumnumber.h
+vector
+E:/ClionProjects/LeetcodeCpp/vector
+
