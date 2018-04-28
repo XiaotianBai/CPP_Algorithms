@@ -5,12 +5,17 @@
 #include "unordered_set"
 #include "KdiffPairs.h"
 #include "thirdmaximumnumber.h"
+#include "remove_nth_node_from_linked_list.h"
+#include "ListNode.h"
 using namespace std;
 
 
 int main() {
-    vector<int> nums = {2,2,3,1};
-    int k = 2;
-    std::cout << thirdmaximumnumber::thirdMax(nums) << std::endl;
+    auto head = new ListNode(1);
+    head->next = new ListNode(2);
+    head->next = new ListNode(3);
+    remove_nth_node_from_linked_list::removeNthFromEnd(head, 2);
+
+    std::cout << head->next->val << std::endl;
     return 0;
 }
