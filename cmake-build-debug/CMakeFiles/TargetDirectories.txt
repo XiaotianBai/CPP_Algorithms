@@ -1,3 +1,0 @@
-C:/Users/BXT/CLionProjects/CPP_Algorithms/cmake-build-debug/CMakeFiles/LeetcodeCpp.dir
-C:/Users/BXT/CLionProjects/CPP_Algorithms/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/BXT/CLionProjects/CPP_Algorithms/cmake-build-debug/CMakeFiles/rebuild_cache.dir
