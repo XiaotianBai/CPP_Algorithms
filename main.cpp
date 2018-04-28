@@ -16,6 +16,6 @@ int main() {
     head->next = new ListNode(3);
     remove_nth_node_from_linked_list::removeNthFromEnd(head, 2);
 
-    std::cout << head->next->val << std::endl;
+    std::cout << remove_nth_node_from_linked_list::removeNthFromEnd(head, 2)->next->val << std::endl;
     return 0;
 }

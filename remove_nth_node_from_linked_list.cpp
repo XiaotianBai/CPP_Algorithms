@@ -4,10 +4,12 @@
 
 #include "remove_nth_node_from_linked_list.h"
 
-ListNode *removeNthFromEnd(ListNode *head, int n) {
+ListNode *remove_nth_node_from_linked_list::removeNthFromEnd(ListNode *head, int n) {
     if (n == 0) return head;
-    ListNode *front(head);
-    ListNode *back(head);
+    ListNode *front = new ListNode(0);
+    ListNode *back = new ListNode(0);
+    front->next = head;
+    back->next = head;
     while (n--) {
         if (!front->next)
             return head;
@@ -17,8 +19,12 @@ ListNode *removeNthFromEnd(ListNode *head, int n) {
         front = front->next;
         back = back->next;
     }
+    if (back->next == head) {
+        head = head->next;
+        return head;
+    }
     ListNode *nth = back->next;
-    back->next = back->next->next;
+    back->next = nth->next;
     nth->next = nullptr;
     return head;
-};
+}
