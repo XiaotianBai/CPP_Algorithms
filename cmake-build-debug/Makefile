@@ -40,19 +40,19 @@ NULL=nul
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "E:\JetBrains\CLion 2018.1.2\bin\cmake\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2018.1.2\bin\cmake\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "E:\JetBrains\CLion 2018.1.2\bin\cmake\bin\cmake.exe" -E remove -f
+RM = "C:\Program Files\JetBrains\CLion 2018.1.2\bin\cmake\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\ClionProjects\LeetcodeCpp
+CMAKE_SOURCE_DIR = C:\Users\BXT\CLionProjects\CPP_Algorithms
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\ClionProjects\LeetcodeCpp\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\BXT\CLionProjects\CPP_Algorithms\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -60,7 +60,7 @@ CMAKE_BINARY_DIR = E:\ClionProjects\LeetcodeCpp\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	echo >nul && "E:\JetBrains\CLion 2018.1.2\bin\cmake\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	echo >nul && "C:\Program Files\JetBrains\CLion 2018.1.2\bin\cmake\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -71,7 +71,7 @@ edit_cache\fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	echo >nul && "E:\JetBrains\CLion 2018.1.2\bin\cmake\bin\cmake.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	echo >nul && "C:\Program Files\JetBrains\CLion 2018.1.2\bin\cmake\bin\cmake.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -81,9 +81,9 @@ rebuild_cache\fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\ClionProjects\LeetcodeCpp\cmake-build-debug\CMakeFiles E:\ClionProjects\LeetcodeCpp\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\BXT\CLionProjects\CPP_Algorithms\cmake-build-debug\CMakeFiles C:\Users\BXT\CLionProjects\CPP_Algorithms\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\ClionProjects\LeetcodeCpp\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\BXT\CLionProjects\CPP_Algorithms\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -178,6 +178,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles\LeetcodeCpp.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LeetcodeCpp.dir\main.cpp.s
 .PHONY : main.cpp.s
 
+remove_nth_node_from_linked_list.obj: remove_nth_node_from_linked_list.cpp.obj
+
+.PHONY : remove_nth_node_from_linked_list.obj
+
+# target to build an object file
+remove_nth_node_from_linked_list.cpp.obj:
+	$(MAKE) -f CMakeFiles\LeetcodeCpp.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LeetcodeCpp.dir\remove_nth_node_from_linked_list.cpp.obj
+.PHONY : remove_nth_node_from_linked_list.cpp.obj
+
+remove_nth_node_from_linked_list.i: remove_nth_node_from_linked_list.cpp.i
+
+.PHONY : remove_nth_node_from_linked_list.i
+
+# target to preprocess a source file
+remove_nth_node_from_linked_list.cpp.i:
+	$(MAKE) -f CMakeFiles\LeetcodeCpp.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LeetcodeCpp.dir\remove_nth_node_from_linked_list.cpp.i
+.PHONY : remove_nth_node_from_linked_list.cpp.i
+
+remove_nth_node_from_linked_list.s: remove_nth_node_from_linked_list.cpp.s
+
+.PHONY : remove_nth_node_from_linked_list.s
+
+# target to generate assembly for a file
+remove_nth_node_from_linked_list.cpp.s:
+	$(MAKE) -f CMakeFiles\LeetcodeCpp.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LeetcodeCpp.dir\remove_nth_node_from_linked_list.cpp.s
+.PHONY : remove_nth_node_from_linked_list.cpp.s
+
 thirdmaximumnumber.obj: thirdmaximumnumber.cpp.obj
 
 .PHONY : thirdmaximumnumber.obj
@@ -220,6 +247,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... remove_nth_node_from_linked_list.obj
+	@echo ... remove_nth_node_from_linked_list.i
+	@echo ... remove_nth_node_from_linked_list.s
 	@echo ... thirdmaximumnumber.obj
 	@echo ... thirdmaximumnumber.i
 	@echo ... thirdmaximumnumber.s

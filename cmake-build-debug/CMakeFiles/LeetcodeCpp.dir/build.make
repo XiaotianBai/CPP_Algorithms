@@ -35,19 +35,19 @@ NULL=nul
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "E:\JetBrains\CLion 2018.1.2\bin\cmake\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2018.1.2\bin\cmake\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "E:\JetBrains\CLion 2018.1.2\bin\cmake\bin\cmake.exe" -E remove -f
+RM = "C:\Program Files\JetBrains\CLion 2018.1.2\bin\cmake\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\ClionProjects\LeetcodeCpp
+CMAKE_SOURCE_DIR = C:\Users\BXT\CLionProjects\CPP_Algorithms
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\ClionProjects\LeetcodeCpp\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\BXT\CLionProjects\CPP_Algorithms\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles\LeetcodeCpp.dir\depend.make
@@ -60,21 +60,21 @@ include CMakeFiles\LeetcodeCpp.dir\flags.make
 
 CMakeFiles\LeetcodeCpp.dir\main.cpp.obj: CMakeFiles\LeetcodeCpp.dir\flags.make
 CMakeFiles\LeetcodeCpp.dir\main.cpp.obj: ..\main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\ClionProjects\LeetcodeCpp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LeetcodeCpp.dir/main.cpp.obj"
-	E:\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\LeetcodeCpp.dir\main.cpp.obj /FdCMakeFiles\LeetcodeCpp.dir\ /FS -c E:\ClionProjects\LeetcodeCpp\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\BXT\CLionProjects\CPP_Algorithms\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LeetcodeCpp.dir/main.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\LeetcodeCpp.dir\main.cpp.obj /FdCMakeFiles\LeetcodeCpp.dir\ /FS -c C:\Users\BXT\CLionProjects\CPP_Algorithms\main.cpp
 <<
 
 CMakeFiles\LeetcodeCpp.dir\main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LeetcodeCpp.dir/main.cpp.i"
-	E:\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx86\x86\cl.exe > CMakeFiles\LeetcodeCpp.dir\main.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\ClionProjects\LeetcodeCpp\main.cpp
+	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx86\x86\cl.exe > CMakeFiles\LeetcodeCpp.dir\main.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\BXT\CLionProjects\CPP_Algorithms\main.cpp
 <<
 
 CMakeFiles\LeetcodeCpp.dir\main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LeetcodeCpp.dir/main.cpp.s"
-	E:\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\LeetcodeCpp.dir\main.cpp.s /c E:\ClionProjects\LeetcodeCpp\main.cpp
+	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\LeetcodeCpp.dir\main.cpp.s /c C:\Users\BXT\CLionProjects\CPP_Algorithms\main.cpp
 <<
 
 CMakeFiles\LeetcodeCpp.dir\main.cpp.obj.requires:
@@ -90,21 +90,21 @@ CMakeFiles\LeetcodeCpp.dir\main.cpp.obj.provides.build: CMakeFiles\LeetcodeCpp.d
 
 CMakeFiles\LeetcodeCpp.dir\KdiffPairs.cpp.obj: CMakeFiles\LeetcodeCpp.dir\flags.make
 CMakeFiles\LeetcodeCpp.dir\KdiffPairs.cpp.obj: ..\KdiffPairs.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\ClionProjects\LeetcodeCpp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/LeetcodeCpp.dir/KdiffPairs.cpp.obj"
-	E:\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\LeetcodeCpp.dir\KdiffPairs.cpp.obj /FdCMakeFiles\LeetcodeCpp.dir\ /FS -c E:\ClionProjects\LeetcodeCpp\KdiffPairs.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\BXT\CLionProjects\CPP_Algorithms\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/LeetcodeCpp.dir/KdiffPairs.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\LeetcodeCpp.dir\KdiffPairs.cpp.obj /FdCMakeFiles\LeetcodeCpp.dir\ /FS -c C:\Users\BXT\CLionProjects\CPP_Algorithms\KdiffPairs.cpp
 <<
 
 CMakeFiles\LeetcodeCpp.dir\KdiffPairs.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LeetcodeCpp.dir/KdiffPairs.cpp.i"
-	E:\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx86\x86\cl.exe > CMakeFiles\LeetcodeCpp.dir\KdiffPairs.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\ClionProjects\LeetcodeCpp\KdiffPairs.cpp
+	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx86\x86\cl.exe > CMakeFiles\LeetcodeCpp.dir\KdiffPairs.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\BXT\CLionProjects\CPP_Algorithms\KdiffPairs.cpp
 <<
 
 CMakeFiles\LeetcodeCpp.dir\KdiffPairs.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LeetcodeCpp.dir/KdiffPairs.cpp.s"
-	E:\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\LeetcodeCpp.dir\KdiffPairs.cpp.s /c E:\ClionProjects\LeetcodeCpp\KdiffPairs.cpp
+	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\LeetcodeCpp.dir\KdiffPairs.cpp.s /c C:\Users\BXT\CLionProjects\CPP_Algorithms\KdiffPairs.cpp
 <<
 
 CMakeFiles\LeetcodeCpp.dir\KdiffPairs.cpp.obj.requires:
@@ -120,21 +120,21 @@ CMakeFiles\LeetcodeCpp.dir\KdiffPairs.cpp.obj.provides.build: CMakeFiles\Leetcod
 
 CMakeFiles\LeetcodeCpp.dir\thirdmaximumnumber.cpp.obj: CMakeFiles\LeetcodeCpp.dir\flags.make
 CMakeFiles\LeetcodeCpp.dir\thirdmaximumnumber.cpp.obj: ..\thirdmaximumnumber.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\ClionProjects\LeetcodeCpp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/LeetcodeCpp.dir/thirdmaximumnumber.cpp.obj"
-	E:\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\LeetcodeCpp.dir\thirdmaximumnumber.cpp.obj /FdCMakeFiles\LeetcodeCpp.dir\ /FS -c E:\ClionProjects\LeetcodeCpp\thirdmaximumnumber.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\BXT\CLionProjects\CPP_Algorithms\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/LeetcodeCpp.dir/thirdmaximumnumber.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\LeetcodeCpp.dir\thirdmaximumnumber.cpp.obj /FdCMakeFiles\LeetcodeCpp.dir\ /FS -c C:\Users\BXT\CLionProjects\CPP_Algorithms\thirdmaximumnumber.cpp
 <<
 
 CMakeFiles\LeetcodeCpp.dir\thirdmaximumnumber.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LeetcodeCpp.dir/thirdmaximumnumber.cpp.i"
-	E:\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx86\x86\cl.exe > CMakeFiles\LeetcodeCpp.dir\thirdmaximumnumber.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\ClionProjects\LeetcodeCpp\thirdmaximumnumber.cpp
+	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx86\x86\cl.exe > CMakeFiles\LeetcodeCpp.dir\thirdmaximumnumber.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\BXT\CLionProjects\CPP_Algorithms\thirdmaximumnumber.cpp
 <<
 
 CMakeFiles\LeetcodeCpp.dir\thirdmaximumnumber.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LeetcodeCpp.dir/thirdmaximumnumber.cpp.s"
-	E:\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\LeetcodeCpp.dir\thirdmaximumnumber.cpp.s /c E:\ClionProjects\LeetcodeCpp\thirdmaximumnumber.cpp
+	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\LeetcodeCpp.dir\thirdmaximumnumber.cpp.s /c C:\Users\BXT\CLionProjects\CPP_Algorithms\thirdmaximumnumber.cpp
 <<
 
 CMakeFiles\LeetcodeCpp.dir\thirdmaximumnumber.cpp.obj.requires:
@@ -148,11 +148,42 @@ CMakeFiles\LeetcodeCpp.dir\thirdmaximumnumber.cpp.obj.provides: CMakeFiles\Leetc
 CMakeFiles\LeetcodeCpp.dir\thirdmaximumnumber.cpp.obj.provides.build: CMakeFiles\LeetcodeCpp.dir\thirdmaximumnumber.cpp.obj
 
 
+CMakeFiles\LeetcodeCpp.dir\remove_nth_node_from_linked_list.cpp.obj: CMakeFiles\LeetcodeCpp.dir\flags.make
+CMakeFiles\LeetcodeCpp.dir\remove_nth_node_from_linked_list.cpp.obj: ..\remove_nth_node_from_linked_list.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\BXT\CLionProjects\CPP_Algorithms\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/LeetcodeCpp.dir/remove_nth_node_from_linked_list.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\LeetcodeCpp.dir\remove_nth_node_from_linked_list.cpp.obj /FdCMakeFiles\LeetcodeCpp.dir\ /FS -c C:\Users\BXT\CLionProjects\CPP_Algorithms\remove_nth_node_from_linked_list.cpp
+<<
+
+CMakeFiles\LeetcodeCpp.dir\remove_nth_node_from_linked_list.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LeetcodeCpp.dir/remove_nth_node_from_linked_list.cpp.i"
+	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx86\x86\cl.exe > CMakeFiles\LeetcodeCpp.dir\remove_nth_node_from_linked_list.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\BXT\CLionProjects\CPP_Algorithms\remove_nth_node_from_linked_list.cpp
+<<
+
+CMakeFiles\LeetcodeCpp.dir\remove_nth_node_from_linked_list.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LeetcodeCpp.dir/remove_nth_node_from_linked_list.cpp.s"
+	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\LeetcodeCpp.dir\remove_nth_node_from_linked_list.cpp.s /c C:\Users\BXT\CLionProjects\CPP_Algorithms\remove_nth_node_from_linked_list.cpp
+<<
+
+CMakeFiles\LeetcodeCpp.dir\remove_nth_node_from_linked_list.cpp.obj.requires:
+
+.PHONY : CMakeFiles\LeetcodeCpp.dir\remove_nth_node_from_linked_list.cpp.obj.requires
+
+CMakeFiles\LeetcodeCpp.dir\remove_nth_node_from_linked_list.cpp.obj.provides: CMakeFiles\LeetcodeCpp.dir\remove_nth_node_from_linked_list.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\LeetcodeCpp.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\LeetcodeCpp.dir\remove_nth_node_from_linked_list.cpp.obj.provides.build
+.PHONY : CMakeFiles\LeetcodeCpp.dir\remove_nth_node_from_linked_list.cpp.obj.provides
+
+CMakeFiles\LeetcodeCpp.dir\remove_nth_node_from_linked_list.cpp.obj.provides.build: CMakeFiles\LeetcodeCpp.dir\remove_nth_node_from_linked_list.cpp.obj
+
+
 # Object files for target LeetcodeCpp
 LeetcodeCpp_OBJECTS = \
 "CMakeFiles\LeetcodeCpp.dir\main.cpp.obj" \
 "CMakeFiles\LeetcodeCpp.dir\KdiffPairs.cpp.obj" \
-"CMakeFiles\LeetcodeCpp.dir\thirdmaximumnumber.cpp.obj"
+"CMakeFiles\LeetcodeCpp.dir\thirdmaximumnumber.cpp.obj" \
+"CMakeFiles\LeetcodeCpp.dir\remove_nth_node_from_linked_list.cpp.obj"
 
 # External object files for target LeetcodeCpp
 LeetcodeCpp_EXTERNAL_OBJECTS =
@@ -160,11 +191,12 @@ LeetcodeCpp_EXTERNAL_OBJECTS =
 LeetcodeCpp.exe: CMakeFiles\LeetcodeCpp.dir\main.cpp.obj
 LeetcodeCpp.exe: CMakeFiles\LeetcodeCpp.dir\KdiffPairs.cpp.obj
 LeetcodeCpp.exe: CMakeFiles\LeetcodeCpp.dir\thirdmaximumnumber.cpp.obj
+LeetcodeCpp.exe: CMakeFiles\LeetcodeCpp.dir\remove_nth_node_from_linked_list.cpp.obj
 LeetcodeCpp.exe: CMakeFiles\LeetcodeCpp.dir\build.make
 LeetcodeCpp.exe: CMakeFiles\LeetcodeCpp.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\ClionProjects\LeetcodeCpp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable LeetcodeCpp.exe"
-	"E:\JetBrains\CLion 2018.1.2\bin\cmake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\LeetcodeCpp.dir --manifests  -- E:\MICROS~1\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\LeetcodeCpp.dir\objects1.rsp @<<
- /out:LeetcodeCpp.exe /implib:LeetcodeCpp.lib /pdb:E:\ClionProjects\LeetcodeCpp\cmake-build-debug\LeetcodeCpp.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\BXT\CLionProjects\CPP_Algorithms\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable LeetcodeCpp.exe"
+	"C:\Program Files\JetBrains\CLion 2018.1.2\bin\cmake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\LeetcodeCpp.dir --manifests  -- C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1413~1.261\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\LeetcodeCpp.dir\objects1.rsp @<<
+ /out:LeetcodeCpp.exe /implib:LeetcodeCpp.lib /pdb:C:\Users\BXT\CLionProjects\CPP_Algorithms\cmake-build-debug\LeetcodeCpp.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<
 
 # Rule to build all files generated by this target.
@@ -175,6 +207,7 @@ CMakeFiles\LeetcodeCpp.dir\build: LeetcodeCpp.exe
 CMakeFiles\LeetcodeCpp.dir\requires: CMakeFiles\LeetcodeCpp.dir\main.cpp.obj.requires
 CMakeFiles\LeetcodeCpp.dir\requires: CMakeFiles\LeetcodeCpp.dir\KdiffPairs.cpp.obj.requires
 CMakeFiles\LeetcodeCpp.dir\requires: CMakeFiles\LeetcodeCpp.dir\thirdmaximumnumber.cpp.obj.requires
+CMakeFiles\LeetcodeCpp.dir\requires: CMakeFiles\LeetcodeCpp.dir\remove_nth_node_from_linked_list.cpp.obj.requires
 
 .PHONY : CMakeFiles\LeetcodeCpp.dir\requires
 
@@ -183,6 +216,6 @@ CMakeFiles\LeetcodeCpp.dir\clean:
 .PHONY : CMakeFiles\LeetcodeCpp.dir\clean
 
 CMakeFiles\LeetcodeCpp.dir\depend:
-	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" E:\ClionProjects\LeetcodeCpp E:\ClionProjects\LeetcodeCpp E:\ClionProjects\LeetcodeCpp\cmake-build-debug E:\ClionProjects\LeetcodeCpp\cmake-build-debug E:\ClionProjects\LeetcodeCpp\cmake-build-debug\CMakeFiles\LeetcodeCpp.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Users\BXT\CLionProjects\CPP_Algorithms C:\Users\BXT\CLionProjects\CPP_Algorithms C:\Users\BXT\CLionProjects\CPP_Algorithms\cmake-build-debug C:\Users\BXT\CLionProjects\CPP_Algorithms\cmake-build-debug C:\Users\BXT\CLionProjects\CPP_Algorithms\cmake-build-debug\CMakeFiles\LeetcodeCpp.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles\LeetcodeCpp.dir\depend
 

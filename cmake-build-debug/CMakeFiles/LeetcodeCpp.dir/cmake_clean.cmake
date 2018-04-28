@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/LeetcodeCpp.dir/main.cpp.obj"
   "CMakeFiles/LeetcodeCpp.dir/KdiffPairs.cpp.obj"
   "CMakeFiles/LeetcodeCpp.dir/thirdmaximumnumber.cpp.obj"
+  "CMakeFiles/LeetcodeCpp.dir/remove_nth_node_from_linked_list.cpp.obj"
   "LeetcodeCpp.pdb"
   "LeetcodeCpp.exe"
   "LeetcodeCpp.exe.manifest"

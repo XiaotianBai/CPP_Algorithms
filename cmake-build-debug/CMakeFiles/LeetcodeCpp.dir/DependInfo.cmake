@@ -4,9 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "E:/ClionProjects/LeetcodeCpp/KdiffPairs.cpp" "E:/ClionProjects/LeetcodeCpp/cmake-build-debug/CMakeFiles/LeetcodeCpp.dir/KdiffPairs.cpp.obj"
-  "E:/ClionProjects/LeetcodeCpp/main.cpp" "E:/ClionProjects/LeetcodeCpp/cmake-build-debug/CMakeFiles/LeetcodeCpp.dir/main.cpp.obj"
-  "E:/ClionProjects/LeetcodeCpp/thirdmaximumnumber.cpp" "E:/ClionProjects/LeetcodeCpp/cmake-build-debug/CMakeFiles/LeetcodeCpp.dir/thirdmaximumnumber.cpp.obj"
+  "C:/Users/BXT/CLionProjects/CPP_Algorithms/KdiffPairs.cpp" "C:/Users/BXT/CLionProjects/CPP_Algorithms/cmake-build-debug/CMakeFiles/LeetcodeCpp.dir/KdiffPairs.cpp.obj"
+  "C:/Users/BXT/CLionProjects/CPP_Algorithms/main.cpp" "C:/Users/BXT/CLionProjects/CPP_Algorithms/cmake-build-debug/CMakeFiles/LeetcodeCpp.dir/main.cpp.obj"
+  "C:/Users/BXT/CLionProjects/CPP_Algorithms/remove_nth_node_from_linked_list.cpp" "C:/Users/BXT/CLionProjects/CPP_Algorithms/cmake-build-debug/CMakeFiles/LeetcodeCpp.dir/remove_nth_node_from_linked_list.cpp.obj"
+  "C:/Users/BXT/CLionProjects/CPP_Algorithms/thirdmaximumnumber.cpp" "C:/Users/BXT/CLionProjects/CPP_Algorithms/cmake-build-debug/CMakeFiles/LeetcodeCpp.dir/thirdmaximumnumber.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 
