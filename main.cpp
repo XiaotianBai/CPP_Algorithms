@@ -1,21 +1,17 @@
 #include <iostream>
-#include <iostream>
-#include "cstdlib"
 #include "vector"
 #include "unordered_set"
-#include "KdiffPairs.h"
-#include "thirdmaximumnumber.h"
-#include "remove_nth_node_from_linked_list.h"
-#include "ListNode.h"
+#include "TreeNode.h"
+#include "deletenodeinabst.h"
 using namespace std;
 
 
 int main() {
-    auto head = new ListNode(1);
-    head->next = new ListNode(2);
-    head->next = new ListNode(3);
-    remove_nth_node_from_linked_list::removeNthFromEnd(head, 2);
-
-    std::cout << remove_nth_node_from_linked_list::removeNthFromEnd(head, 2)->next->val << std::endl;
+    auto root = new TreeNode(4);
+//    root->left = new TreeNode(3);
+//    root->right = new TreeNode(5);
+//    root->left->left = new TreeNode(1);
+    root = deletenodeinabst::deleteNode(root, 4);
+    std::cout << root->val << std::endl;
     return 0;
 }
