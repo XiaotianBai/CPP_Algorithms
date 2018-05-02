@@ -1,7 +1,6 @@
 #include <iostream>
 #include "vector"
-#include "unordered_set"
-#include "quicksort.h"
+
 using namespace std;
 
 
@@ -59,7 +58,6 @@ int main() {
 //    for(vector<int> :: iterator i = v.begin(); i != v.end(); ++i) {
 //        cout<<*i;
 //    }
-    for (vector<int>::iterator i = v1.begin(); i != v1.end(); ++i) {
-        cout << *i;
-    }
+    string a = "abc";
+    cout << *(a.end() - 1);
 }
